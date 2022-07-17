@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/replay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/trainingTopText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/trainingTopText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="replayButton"
+        android:text="Replay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/min2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Min 2nd" />
+
+            <Button
+                android:id="@+id/maj2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Maj 2nd" />
+
+            <Button
+                android:id="@+id/min3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Min 3rd" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/maj3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Maj 3rd" />
+
+            <Button
+                android:id="@+id/perf4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="4th" />
+
+            <Button
+                android:id="@+id/perf5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="5th" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/min6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Min 6th" />
+
+            <Button
+                android:id="@+id/maj6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Maj 6th" />
+
+            <Button
+                android:id="@+id/min7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Min 7th" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/maj7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="checkGuess"
+                android:text="Maj 7th" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

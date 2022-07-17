@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Intervals</string>
+    <string name="mainActivityTopText">How many octaves should the exercise span?</string>
+    <string-array name="plusMinus">
+        <item>±</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="octaves">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="startButtonText">Start</string>
+    <string name="trainingTopText">Which interval is the second sound in relation to the first?</string>
+</resources>
